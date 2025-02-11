@@ -5,7 +5,7 @@ const messages = [
     "Puku Pleasee.....",
     "Give it a thought puku",
     "If you say no, I will start crying T_T",
-    "I will be sad puku :(((",
+    "I will be sad puku :((",
     "I will be extremely sad my ichuuuu.... :[",
     "Alright fine puku, I will stop asking so just click on me last time",
     "Muhaahaha gotcha puku I was kidding now please say YES zinni. 💝"
