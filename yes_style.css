@@ -1,4 +1,3 @@
-
 body {
     display: flex;
     justify-content: center;
@@ -18,8 +17,14 @@ body {
     color: #d32f2f;
 }
 
+.gif_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .gif_container img {
-    width: 100%; 
-    max-width: 500px; 
-    height: auto; 
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
 }
