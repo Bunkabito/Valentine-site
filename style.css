@@ -1,15 +1,17 @@
+/* Set the background to pink and center everything */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #f9e3e3;
+    background-color: #ffcccb; /* Light pink background */
     font-family: 'Arial', sans-serif;
     flex-direction: column;
     text-align: center;
 }
 
+/* Center the container */
 .container {
     display: flex;
     flex-direction: column;
@@ -17,19 +19,24 @@ body {
     text-align: center;
 }
 
+/* Style the heading */
 h1 {
     font-size: 2.5em;
-    color: #d32f2f;
+    color: #d32f2f; /* Dark red text */
     margin-bottom: 20px;
 }
 
+/* Style the buttons container */
 .buttons {
     display: flex;
     gap: 15px;
     margin-top: 20px;
 }
 
-.yes-button, .no-button {
+/* Style the Yes button (green) */
+.yes-button {
+    background-color: #4caf50; /* Green */
+    color: white;
     font-size: 1.5em;
     padding: 10px 20px;
     border: none;
@@ -38,27 +45,32 @@ h1 {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.yes-button {
-    background-color: #4caf50;
-    color: white;
-}
-
+/* Style the No button (red) */
 .no-button {
-    background-color: #f44336;
+    background-color: #f44336; /* Red */
     color: white;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
+/* Add hover effects to buttons */
 .yes-button:hover, .no-button:hover {
     transform: scale(1.1);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Center the GIF container */
 .gif_container {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
+/* Style the GIF */
 .gif_container img {
     max-width: 250px;
     height: auto;
